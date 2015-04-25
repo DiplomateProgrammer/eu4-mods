@@ -1,0 +1,26 @@
+namespace = dod_colonial
+
+country_event = {
+	id = dod_colonial.1
+
+	title = "dod_colonial_add_population_1_title"
+	desc = "dod_colonial_add_population_1_desc"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "dod_OK"
+		
+		every_owned_province = {
+			limit = {
+				is_colony = yes
+			}
+
+			add_colonysize = 3000
+		}
+	}
+
+	option = {
+		name = "dod_CANCEL"
+	}
+}
