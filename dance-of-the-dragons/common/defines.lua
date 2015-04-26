@@ -397,11 +397,11 @@ NCountry = {
 	LARGE_VASSAL_LIMIT = 60,						-- Above what base tax is a vassal considered a large vassal
 	GREAT_POWER_VASSAL_LIMIT = 100, 				-- Above what base tax is a vassal considered a great power vassal
 	
-	MAX_CROWN_COLONIES = 4,							-- How many province a country can hold in a colonial region before creating a colonial nation
+	MAX_CROWN_COLONIES = 10000,						-- How many province a country can hold in a colonial region before creating a colonial nation
 	RIVAL_TECH_THRESHOLD = 0.5,						-- Difference in tech group cost modifiers
 	PROTECTORATE_TECH_THRESHOLD = 0.5,				-- Difference in tech group cost modifiers
 	PROTECTORATE_LOWER_BOUND = 0.5,					-- Lower limit for protectorates
-	OVERSEAS_DISTANCE = 150,							-- Provinces beyond this distance to capital are distant overseas
+	OVERSEAS_DISTANCE = 150,						-- Provinces beyond this distance to capital are distant overseas
 	
 	NORMAL_ELECTION_CYCLE = 4,						-- The normal election cycle at which 10 republican tradition is lost from 1 unit of scaled republican tradition
 	DICTATORSHIP_TRADITION_FOR_MONARCHY = 0.5,		-- If republican tradition is lower than this on death of ruler, dictatorship turns into monarchy
@@ -418,7 +418,7 @@ NEconomy = {
 	AUTONOMY_AT_CONQUEST = 50,						-- Autonomy added at conquest
 	AUTONOMY_AT_CONQUEST_CLAIM = 40,				-- Autonomy added at conquest if you have a claim
 	AUTONOMY_AT_CONQUEST_CORE = 0,					-- Autonomy added at conquest if you have a core
-	OVERSEAS_MIN_AUTONOMY = 75,						-- Overseas provinces always have at least this much autonomy
+	OVERSEAS_MIN_AUTONOMY = 0,						-- Overseas provinces always have at least this much autonomy
 	COLONY_MIN_AUTONOMY = 0,						-- Colonized provines always have at least this much autonomy
 	CAPITAL_MAX_AUTONOMY = 0,						-- Capital province autonomy can never be above this
 	DECREASE_AUTONOMY_STEP = -25,
