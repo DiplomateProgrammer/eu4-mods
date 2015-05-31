@@ -7,11 +7,11 @@ NGame = {
 },
 
 NDiplomacy = {
-	MAX_CLIENT_STATES = 10,							-- Max client states for one country
+	MAX_CLIENT_STATES = 100,							-- Max client states for one country
 
 	ALLOW_LEADER_DEMAND_TOGGLE = 0,					-- Whether or not player is allowed to set if warleader can negotiate for them
-	VASSALIZE_BASE_TAX_CAP = 40, -- Countries with more total base tax than this cannot be vassalized
-	MARCH_BASE_TAX_CAP = 60, -- Countries with more total base tax than this cannot be made into a march
+	VASSALIZE_BASE_TAX_CAP = 4000, -- Countries with more total base tax than this cannot be vassalized
+	MARCH_BASE_TAX_CAP = 4000, -- Countries with more total base tax than this cannot be made into a march
 	
 	PEACE_IMPACT_ADM_SCORE = 0.25,
 	PEACE_IMPACT_DIP_SCORE = 0.25,
@@ -166,7 +166,7 @@ NDiplomacy = {
 	CANCEL_TRADE_TRANSFER_PRESTIGE_HIT = -5,
 	
 	DIPLOMAT_SPEED = 20.0,							-- DIPLOMAT_SPEED
-	DIPLOMAT_COOLDOWN_TIME = 1,						-- DIPLOMATIC ACTION COOLDOWN IN MONTHS
+	DIPLOMAT_COOLDOWN_TIME = 0,						-- DIPLOMATIC ACTION COOLDOWN IN MONTHS
 	MIN_RELATIONS_TO_ALLY = -25,						-- Alliances not possible if either country has an opinion of the other lower than this
 	MIN_RELATIONS_TO_SUPPORT_INDEPENDENCE = -25,	-- Support Independence not possible if either country has an opinion of the other lower than this
 	LACK_OF_RIVAL_SCORE_PENALTY = 0.25,			-- Monthly score is changed by this for each rival short of expected amount
@@ -479,8 +479,8 @@ NEconomy = {
 	TRADE_COMPANY_STRONG_LIMIT = 0.51,
 	LARGE_COLONIAL_NATION_LIMIT = 10,
 	PRIVATEER_INCOME_COLLECTION_EFF = 0.4,
-	MIN_ARMY_MAINTENANCE = 0.1,
-	MIN_NAVY_MAINTENANCE = 0.1,
+	MIN_ARMY_MAINTENANCE = 0.01,
+	MIN_NAVY_MAINTENANCE = 0.01,
 },
 
 NMilitary = {
@@ -581,7 +581,7 @@ NMilitary = {
 	SEA_LANDING_PENALTY = -2,							-- Dice roll penalty from sea invasion
 	MOTHBALLING_MONTHLY_DECREASE = 0.05,				-- When mothballin is turned on, the units strength will lose this much each month
 	MOTHBALLING_MINIMUM_STRENGTH = 0.25,				-- The minimum strength value the fleet will reach while mothballin
-	MIN_RECRUIT_TIME_MODIFIER = 0.2,					-- Recruit time cannot be lower than this * base
+	MIN_RECRUIT_TIME_MODIFIER = 0.01,					-- Recruit time cannot be lower than this * base
 	PRESTIGE_FROM_LAND = 10,					-- Maximum base prestige from land battles (unmodified).
 	PRESTIGE_FROM_NAVAL = 10,					-- Maximum base prestige from naval battles (unmodified).
 	SEA_EXPLORE_SPEED = 5,						-- Can to some extent determine exploration speed of seas and coasts by specifying how long a ship pauses between exploration targets.
