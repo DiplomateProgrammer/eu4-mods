@@ -1,0 +1,73 @@
+namespace = dod_build_all
+
+###############################################################################
+###############################################################################
+#################################### All ######################################
+###############################################################################
+###############################################################################
+
+country_event = {
+	id = dod_build_all.0
+
+	title = "dod_buildings_title"
+	desc = "dod_buildings_desc"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "dod_OK"
+		
+		every_owned_province = {
+			limit = {
+				is_colony = no
+			}
+
+			add_building = temple
+			add_building = courthouse
+			add_building = spy_agency
+			add_building = town_hall
+			add_building = college
+			add_building = cathedral
+
+			add_building = armory
+			add_building = training_fields
+			add_building = barracks
+			add_building = regimental_camp
+			add_building = arsenal
+			add_building = conscription_center
+
+			add_building = dock
+			add_building = drydock
+			add_building = shipyard
+			add_building = grand_shipyard
+			add_building = naval_arsenal
+			add_building = naval_base
+
+			add_building = constable
+			add_building = workshop
+			add_building = counting_house
+			add_building = treasury_office
+			add_building = mint
+			add_building = stock_exchange
+
+			add_building = marketplace
+			add_building = trade_depot
+			add_building = canal
+			add_building = road_network
+			add_building = post_office
+			add_building = customs_house
+
+			add_building = fort1
+			add_building = fort2
+			add_building = fort3
+			add_building = fort4
+			add_building = fort5
+			add_building = fort6
+
+		}
+	}
+
+	option = {
+		name = "dod_CANCEL"
+	}
+}
