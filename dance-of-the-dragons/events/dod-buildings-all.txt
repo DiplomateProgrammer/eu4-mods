@@ -34,13 +34,13 @@ country_event = {
 
 			add_building = barracks
 			add_building = training_fields
-			#add_building = regimental_camp
-			#add_building = conscription_center
+			add_building = regimental_camp
+			add_building = conscription_center
 
-			add_building = fort_15th
-			add_building = fort_16th
-			add_building = fort_17th
-			add_building = fort_18th
+			#add_building = fort_15th
+			#add_building = fort_16th
+			#add_building = fort_17th
+			#add_building = fort_18th
 
 			add_building = courthouse
 			add_building = town_hall

@@ -29,15 +29,24 @@ player_handicap = {
 	merc_maintenance_modifier = -0.33
 	war_exhaustion = -0.5
 	war_exhaustion_cost = -1.0
-	leader_land_manuever = 20
 
 	idea_cost = -0.33
-	free_leader_pool = 20
-	leader_siege = 2
+	
+	free_leader_pool = 30
+	leader_land_fire = 40
+	leader_land_shock = 40
+	leader_land_manuever = 40
+	leader_shock = 40
+	leader_defense = 40
+	leader_siege = 40
 
+	leader_naval_fire = 40
+	leader_naval_shock = 40
+	leader_naval_manuever = 40
+	leader_naval_siege = 40
 
 	diplomatic_reputation = 20
-	improve_relation_modifier = 2.00
+	improve_relation_modifier = 3.00
 	ae_impact = -1.0
 	fabricate_claims_time = -0.33
 	unjustified_demands = 2.0
@@ -47,7 +56,7 @@ player_handicap = {
 
 	global_unrest = -4
 	core_creation = -0.5
-	diplomatic_upkeep = 15
+	diplomatic_upkeep = 40
 	
 	global_missionary_strength = 0.5
 	inflation_reduction = 0.10
