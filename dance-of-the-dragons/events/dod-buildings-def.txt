@@ -1,4 +1,4 @@
-namespace = dod_pro
+namespace = dod_def
 
 ###############################################################################
 ###############################################################################
@@ -7,7 +7,7 @@ namespace = dod_pro
 ###############################################################################
 
 country_event = {
-	id = dod_pro.0
+	id = dod_def.0
 
 	title = "dod_buildings_title"
 	desc = "dod_buildings_desc"
@@ -22,8 +22,10 @@ country_event = {
 				is_colony = no
 			}
 
-			add_building = workshop
-			add_building = counting_house
+			add_building = fort_15th
+			add_building = fort_16th
+			add_building = fort_17th
+			add_building = fort_18th
 		}
 	}
 
