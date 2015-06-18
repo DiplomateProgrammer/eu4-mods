@@ -22,34 +22,35 @@ country_event = {
 				is_colony = no
 			}
 
-			add_building = temple
 			add_building = cathedral
 
-			add_building = marketplace
-			add_building = trade_depot
 			add_building = stock_exchange
 
-			add_building = workshop
 			add_building = counting_house
 
-			add_building = barracks
 			add_building = training_fields
-			add_building = regimental_camp
 			add_building = conscription_center
 
-			#add_building = fort_15th
-			#add_building = fort_16th
-			#add_building = fort_17th
-			#add_building = fort_18th
-
-			add_building = courthouse
 			add_building = town_hall
 			add_building = university
 
-			#add_building = dock
-			#add_building = drydock
-			#add_building = shipyard
-			#add_building = grand_shipyard
+			if = {
+				limit = {
+					has_building = fort_15th
+				}
+				
+				remove_building = fort_15th
+				add_building = fort_18th
+			} #end if
+
+			if = {
+				limit = {
+					has_port = yes
+				}
+				
+				add_building = drydock
+				add_building = grand_shipyard
+			} #end if
 
 		}
 	}
